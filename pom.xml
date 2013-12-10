@@ -214,7 +214,7 @@
 		                    <Specification-Vendor></Specification-Vendor>
                             <package-name>${project.name}</package-name>
                             <depends>Default Jahia Templates</depends>
-                            <root-folder>${artifactId}</root-folder>
+                            <root-folder>${project.artifactId}</root-folder>
                         </manifestEntries>
                     </archive>
                 </configuration>
