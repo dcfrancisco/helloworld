@@ -8,7 +8,7 @@ Requirements
 
 In order to use this example you will need :
 - Apache Maven 3.0 or more recent
-- Jahia 6.6+
+- Jahia 7.0+ (for Jahia 6.6+ use the code from the 1_x branch)
 
 Features
 --------
@@ -33,8 +33,8 @@ Edit your Maven settings.xml (usually in ~/.m2/settings.xml) to add the followin
             <id>jahia-server</id>
             <properties>
                 <jahia.deploy.targetServerType>tomcat</jahia.deploy.targetServerType>
-                <jahia.deploy.targetServerVersion>6</jahia.deploy.targetServerVersion>
-                <jahia.deploy.targetServerDirectory>/Users/loom/java/packages/Jahia_xCM_v6.6.2.0/tomcat</jahia.deploy.targetServerDirectory>
+                <jahia.deploy.targetServerVersion>7</jahia.deploy.targetServerVersion>
+                <jahia.deploy.targetServerDirectory>/Users/loom/java/packages/Jahia_xCM_v7.0.0.0/tomcat</jahia.deploy.targetServerDirectory>
             </properties>
         </profile>
 
