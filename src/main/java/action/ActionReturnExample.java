@@ -26,7 +26,7 @@ public class ActionReturnExample extends Action {
 			throws Exception {
 		JSONObject response = new JSONObject();
 		response.put("message", "action executed");
-		ActionResult action = new ActionResult(HttpServletResponse.SC_OK, "/test1/test2.html?test=test&test2=test2",
+		ActionResult action = new ActionResult(HttpServletResponse.SC_OK, "/en/sites/Testsite/home.html?test1=Testing&test2=test2",
 				response);
 
 		logger.info(action.getUrl());
