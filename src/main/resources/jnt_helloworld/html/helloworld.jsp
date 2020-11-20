@@ -7,4 +7,4 @@
 
 Hello <jcr:nodeProperty node="${currentNode}" name="targetName"/> !
 
-${request.getParameter("test")}
+<h1><%= request.getParameter("test") %></h1>
