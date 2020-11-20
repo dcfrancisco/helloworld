@@ -6,3 +6,5 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 
 Hello <jcr:nodeProperty node="${currentNode}" name="targetName"/> !
+
+${request.getParameter("test")}

@@ -38,11 +38,27 @@
     <parent>
         <artifactId>jahia-modules</artifactId>
         <groupId>org.jahia.modules</groupId>
-        <version>7.0.0.0-SNAPSHOT</version>
+        <version>7.1.1.0</version>
     </parent>
     <artifactId>helloworld</artifactId>
     <name>helloworld</name>
     <version>2.0-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <description>This is the custom module (helloworld) for running on a Jahia server.</description>
+	
+	
+	<repositories>
+		<repository>
+			<releases>
+				<enabled>true</enabled>
+				<updatePolicy>never</updatePolicy>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<id>jahia-public</id>
+			<name>Jahia Public Repository</name>
+			<url>https://devtools.jahia.com/nexus/content/groups/public</url>
+		</repository>
+ 	</repositories>
 </project>
